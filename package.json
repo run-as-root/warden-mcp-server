@@ -1,0 +1,34 @@
+{
+  "name": "warden-magento-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP Server for Warden + Magento 2 development workflow with project initialization",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --inspect server.js"
+  },
+  "keywords": [
+    "mcp",
+    "server",
+    "warden",
+    "magento",
+    "magento2",
+    "development",
+    "php",
+    "mysql",
+    "docker",
+    "project-initialization",
+    "environment-setup",
+    "redis",
+    "opensearch"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
